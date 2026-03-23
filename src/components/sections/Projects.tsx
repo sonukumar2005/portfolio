@@ -2,7 +2,8 @@ import { useEffect, useRef } from 'react'
 import { useReveal } from '../../hooks/useReveal'
 import asapImg    from '../../assets/ASAP!.png'
 import trendiioImg from '../../assets/trendiio.png'
-import vidflowImg  from '../../assets/VidFlow.png'
+// @ts-ignore
+import vidflowImg from '../../assets/VidFlow.png'
 
 const projects = [
   {
